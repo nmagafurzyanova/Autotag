@@ -30,20 +30,27 @@ The autotagging models are trained and evaluated on the BBC dataset, which consi
 
 - **Accuracy:** 97.98%
 - **Precision, Recall, F1-Score for each class and averages (macro avg, weighted avg):** 
-  - These metrics measure the model's precision in classifying each class. Higher values generally indicate a good ability of the model to distinguish between different classes. Accuracy is the ratio of correct predictions to the total predictions.
+  - These metrics measure the model's precision in classifying each class. Higher values generally indicate a good ability of the model to distinguish between different classes. Accuracy is the ratio of correct predictions to the total predictions. Notably, the model achieved high precision, recall, and F1-scores, indicating a robust ability to make accurate predictions and capture instances of each class effectively.
 
 ## Autotag Approach with PyTorch
 
 - **Accuracy:** 96.40%
 - **Precision, Recall, F1-Score for each class and averages (macro avg, weighted avg):**
   - Similar to the above, these metrics provide an evaluation of the model's precision for each class and overall averages. An accuracy of 96.40% indicates that 96.40% of the model's predictions are correct.
+  - While the accuracy is slightly lower compared to BERT, the model still exhibits strong classification capabilities.
 
 ## Autotag Approach with Naive Bayes
 
 - **Accuracy:** 97.30%
 - **Precision, Recall, F1-Score for each class and averages (macro avg, weighted avg):**
   - Likewise, these metrics offer an assessment of the classification model's performance.
+  - The Naive Bayes approach appears to be competitive, aligning with the performance of more complex models like BERT and PyTorch.
 
+## Overall 
+- Overall, a high accuracy and high values for precision, recall, and f1-score indicate that the models are performing well in this specific classification task.
+
+- All three approaches showcase promising results, with each model demonstrating strengths in accurate classification.
+- The choice between the models may depend on factors such as computational efficiency, resource requirements, and specific use-case considerations.
 
 ## Instructions
 
